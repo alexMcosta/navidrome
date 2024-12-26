@@ -16,3 +16,5 @@ steps:
     env:
       QODANA_TOKEN: $(QODANA_TOKEN)
       QODANA_ENDPOINT: 'https://qodana.cloud'
+    inputs:
+      args: 'prMode'
