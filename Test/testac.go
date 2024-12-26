@@ -1,6 +1,7 @@
 package Tester
 
-func TestAc() bool {
+func TestAc() (bool, string) {
 	testerac := true
-	return testerac
+	meow := 'cat'
+	return testerac, meow
 }
